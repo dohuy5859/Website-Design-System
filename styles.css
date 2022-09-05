@@ -1,0 +1,224 @@
+
+
+header {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    font-size: 50px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 900;
+     /* make the font bolder. */
+    color: palegreen;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: "pacifico";
+    font-size: 30px;
+    color: indigo;
+    text-decoration: underline;
+}
+
+h2:hover {
+    /* When hovering to any h2 elements, the content will blink */
+    text-decoration: blink;
+}
+
+
+.container {
+    /* Create a box that contains all the boxes elements inside of it. For this case this is for the colors elements. */
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 50px auto;
+    padding: 10px;
+    float: left;
+    max-width: 1000px;
+    min-width: 500px;
+}
+
+
+.color-panel {
+    display: inline-block;
+    /* align boxes element to display horizontally */
+    text-align: center;
+    width: 180px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    margin-left: 25px;
+    font-family: "Pacifico";
+
+}
+
+.red {
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+.blue {
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+
+.green {
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+
+.purple {
+    text-align: center;
+    color: white;
+    background-color: purple;
+}
+
+.pink {
+    text-align: center;
+    color: white;
+    background-color: pink;
+}
+
+.black {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.dark-blue {
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+}
+
+.cool-blue {
+    text-align: center;
+    color: white;
+    background-color: #005073;
+}
+
+.yellow {
+    text-align: center;
+    color: black;
+    background-color: yellow;
+}
+
+.magenta {
+    text-align: center;
+    color: white;
+    background-color: magenta;
+}
+
+.aquamarine {
+    text-align: center;
+    color: black;
+    background-color: aquamarine;
+}
+
+.orange {
+    text-align: center;
+    color: white;
+    background-color: orange;
+}
+
+.container2 {
+    /* Create a box that contains all the boxes elements inside of it. For this case this is for the font elements. */
+    width:750px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 50px auto;
+    padding: 10px;
+    float: right;
+    margin-right: 70px;
+    
+}
+
+.font-panel {
+    display: inline-block;
+    width: 200px;
+    height:100px;
+    margin:0 auto;
+    font-size:15px;
+    margin-left:40px;
+    text-align: center;
+}
+
+.merriweather {
+    font-family: "Merriweather";
+    float: left;
+}
+
+#font-name {
+    text-decoration: underline;
+    font-size: 16px;
+    color:black;
+    font-weight: bold;
+}
+
+.italic-font {
+    font-style: italic;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+.playfairdisplay {
+    font-family: "playfair display";
+}
+
+.roboto {
+    font-family: "Roboto";
+    float: left;
+
+}
+
+.opensans {
+    font-family: "Roboto";
+    float: left;
+
+}
+
+.raleway {
+    font-family: "Raleway" ;
+    float: left;
+}
+
+.ubuntu {
+    font-family: "Ubuntu" ;
+    float: left;
+
+}
+
+.container3 {
+    /* Create a box that contains all the boxes elements inside of it. For this case this is for the colors elements. */
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 40px auto;
+    padding: 10px;
+    float: left;
+    max-width: 1000px;
+    min-width: 500px;
+    
+}
+
+.main-page{
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 32px;
+}
+.subheading{
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Ubuntu';
+}
+
+.paragraph{
+    font-size: 18px;
+    font-family: 'Opensans';
+    font-weight:400;
+}
